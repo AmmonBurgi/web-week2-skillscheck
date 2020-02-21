@@ -46,7 +46,7 @@ header {
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     align-content: center;
   
@@ -60,16 +60,16 @@ header {
     
 }
 .first-box {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background-color: teal;
     border-radius: 10px;
     margin: 20px;
     margin-right: 50px;
 }
 .second-box {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background-color: teal;
     border-radius: 10px;
     margin: 20px;
@@ -77,8 +77,8 @@ header {
     margin-left: 50px;
 }
 .third-box {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background-color: teal;
     border-radius: 10px;
     margin: 20px;
@@ -86,22 +86,22 @@ header {
 }
 .second-row{
     width: 100%;
-    height: 21vh;
+    height: 24vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 15px
 }
 .fourth-box {
-    width: 400px;
-    height: 200px;
+    width: 350px;
+    height: 150px;
     background-color: orange;
     margin: 20px;
     margin-right: 150px;
 }
 .fifth-box {
-    width: 400px;
-    height: 200px;
+    width: 350px;
+    height: 150px;
     background-color: orange;
     margin: 20px;
     margin-left: 150px;
@@ -122,8 +122,8 @@ header {
 }
 .pic {
     background-image: url(https://cnet3.cbsistatic.com/img/O5hCcYzf9xUSOjsGJelgYStfLek=/2019/01/07/3ff9aede-cd08-4e9c-a3c7-a5b22f8b0093/samsung-notebook-9-pen.jpg);
-    width: 300px;
-    height: 150px;
+    width: 250px;
+    height: 120px;
     background-size: contain;
     background-repeat: no-repeat;
     margin: 20px
