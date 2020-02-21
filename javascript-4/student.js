@@ -62,7 +62,7 @@ background(arr[0], arr[1], arr[2])
 // CODE HERE
 function setPowers(arr){
     for(let i = 0; i < arr.length; i++){
-        return createLi(arr[i])
+         createLi(arr[i])
     }
 }
 

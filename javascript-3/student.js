@@ -47,7 +47,9 @@ function checkGroceryCount(){
          return '1 item'
     }
     else if (groceries.length >= 2 && groceries.length < 5){
-         return '3 items'
+        for (let i = 0; i < groceries.length; i++){
+         return `${groceries.length} items`
+        }
     }
 }
 //////////////////STEP 6////////////////////
